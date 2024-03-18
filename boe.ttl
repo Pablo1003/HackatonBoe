@@ -1,0 +1,238 @@
+@prefix : <http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3/> .
+
+<http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#refersTo
+:refersTo rdf:type owl:ObjectProperty ;
+          rdfs:domain :doc ;
+          rdfs:range :departamento .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#Andalucía
+:Andalucía rdf:type owl:Class ;
+           rdfs:subClassOf :autonomico .
+
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#Aragón
+:Aragón rdf:type owl:Class ;
+        rdfs:subClassOf :autonomico .
+
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#Asturias
+:Asturias rdf:type owl:Class ;
+          rdfs:subClassOf :autonomico .
+
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#Canarias
+:Canarias rdf:type owl:Class ;
+          rdfs:subClassOf :autonomico .
+
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#Cantabria
+:Cantabria rdf:type owl:Class ;
+           rdfs:subClassOf :autonomico .
+
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#Castilla_La_Mancha
+:Castilla_La_Mancha rdf:type owl:Class ;
+                    rdfs:subClassOf :autonomico .
+
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#Castilla_y_Leon
+:Castilla_y_Leon rdf:type owl:Class ;
+                 rdfs:subClassOf :autonomico .
+
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#Cataluña
+:Cataluña rdf:type owl:Class ;
+          rdfs:subClassOf :autonomico .
+
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#Comunidad_Valenciana
+:Comunidad_Valenciana rdf:type owl:Class ;
+                      rdfs:subClassOf :autonomico .
+
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#Comunidad_de_Madrid
+:Comunidad_de_Madrid rdf:type owl:Class ;
+                     rdfs:subClassOf :autonomico .
+
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#Extremadura
+:Extremadura rdf:type owl:Class ;
+             rdfs:subClassOf :autonomico .
+
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#Galicia
+:Galicia rdf:type owl:Class ;
+         rdfs:subClassOf :autonomico .
+
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#Islas_Baleares
+:Islas_Baleares rdf:type owl:Class ;
+                rdfs:subClassOf :autonomico .
+
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#La_Rioja
+:La_Rioja rdf:type owl:Class ;
+          rdfs:subClassOf :autonomico .
+
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#Ministerio_de_Agricultura_Pesca_y_Alimentación
+:Ministerio_de_Agricultura_Pesca_y_Alimentación rdf:type owl:Class ;
+                                                rdfs:subClassOf :estatal .
+
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#Ministerio_de_Asuntos_Económicos_y_Transformación_Digital
+:Ministerio_de_Asuntos_Económicos_y_Transformación_Digital rdf:type owl:Class ;
+                                                           rdfs:subClassOf :estatal .
+
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#Ministerio_de_Asuntos_Exteriores
+:Ministerio_de_Asuntos_Exteriores rdf:type owl:Class ;
+                                  rdfs:subClassOf :estatal .
+
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#Ministerio_de_Ciencia_e_Innovación
+:Ministerio_de_Ciencia_e_Innovación rdf:type owl:Class ;
+                                    rdfs:subClassOf :estatal .
+
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#Ministerio_de_Consumo
+:Ministerio_de_Consumo rdf:type owl:Class ;
+                       rdfs:subClassOf :estatal .
+
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#Ministerio_de_Cultura_y_Deporte
+:Ministerio_de_Cultura_y_Deporte rdf:type owl:Class ;
+                                 rdfs:subClassOf :estatal .
+
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#Ministerio_de_Defensa
+:Ministerio_de_Defensa rdf:type owl:Class ;
+                       rdfs:subClassOf :estatal .
+
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#Ministerio_de_Derechos_Sociales_y_Agenda
+:Ministerio_de_Derechos_Sociales_y_Agenda rdf:type owl:Class ;
+                                          rdfs:subClassOf :estatal .
+
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#Ministerio_de_Educación_y_Formación_Profesional
+:Ministerio_de_Educación_y_Formación_Profesional rdf:type owl:Class ;
+                                                 rdfs:subClassOf :estatal .
+
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#Ministerio_de_Hacienda
+:Ministerio_de_Hacienda rdf:type owl:Class ;
+                        rdfs:subClassOf :estatal .
+
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#Ministerio_de_Igualdad
+:Ministerio_de_Igualdad rdf:type owl:Class ;
+                        rdfs:subClassOf :estatal .
+
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#Ministerio_de_Industria_Comercio_y_Turismo
+:Ministerio_de_Industria_Comercio_y_Turismo rdf:type owl:Class ;
+                                            rdfs:subClassOf :estatal .
+
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#Ministerio_de_Interior
+:Ministerio_de_Interior rdf:type owl:Class ;
+                        rdfs:subClassOf :estatal .
+
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#Ministerio_de_Justicia
+:Ministerio_de_Justicia rdf:type owl:Class ;
+                        rdfs:subClassOf :estatal .
+
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#Ministerio_de_Política_Territorial_y_Función_Pública
+:Ministerio_de_Política_Territorial_y_Función_Pública rdf:type owl:Class ;
+                                                      rdfs:subClassOf :estatal .
+
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#Ministerio_de_Presidencia_y_Relaciones_con_las_Cortes
+:Ministerio_de_Presidencia_y_Relaciones_con_las_Cortes rdf:type owl:Class ;
+                                                       rdfs:subClassOf :estatal .
+
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#Ministerio_de_Sanidad
+:Ministerio_de_Sanidad rdf:type owl:Class ;
+                       rdfs:subClassOf :estatal .
+
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#Ministerio_de_Trabajo_y_Economía_Social
+:Ministerio_de_Trabajo_y_Economía_Social rdf:type owl:Class ;
+                                         rdfs:subClassOf :estatal .
+
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#Ministerio_de_Transportes_Movilidad_y_Agenda_Urbana
+:Ministerio_de_Transportes_Movilidad_y_Agenda_Urbana rdf:type owl:Class ;
+                                                     rdfs:subClassOf :estatal .
+
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#Ministerio_de_Universidades
+:Ministerio_de_Universidades rdf:type owl:Class ;
+                             rdfs:subClassOf :estatal .
+
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#Ministerio_para_la_Transición_Ecológica_y_el_Reto_Demográfico
+:Ministerio_para_la_Transición_Ecológica_y_el_Reto_Demográfico rdf:type owl:Class ;
+                                                               rdfs:subClassOf :estatal .
+
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#Ministeriode_Inclusión_Seguridad_Social_y_Migraciones
+:Ministeriode_Inclusión_Seguridad_Social_y_Migraciones rdf:type owl:Class ;
+                                                       rdfs:subClassOf :estatal .
+
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#Murcia
+:Murcia rdf:type owl:Class ;
+        rdfs:subClassOf :autonomico .
+
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#Navarra
+:Navarra rdf:type owl:Class ;
+         rdfs:subClassOf :autonomico .
+
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#País_Vasco
+:País_Vasco rdf:type owl:Class ;
+            rdfs:subClassOf :autonomico .
+
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#autonomico
+:autonomico rdf:type owl:Class ;
+            rdfs:subClassOf :departamento .
+
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#departamento
+:departamento rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#doc
+:doc rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/usuario-1/ontologies/2023/10/untitled-ontology-3#estatal
+:estatal rdf:type owl:Class ;
+         rdfs:subClassOf :departamento .
+
+
+###  Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi
